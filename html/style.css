@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.container .div {
+  margin-top: 450px;
+  background-color: #2b2b2bad;
+  border-radius: 18px;
+  overflow-x: hidden;
+  width: 503px;
+  height: 308px;
+  position: relative;
+}
+
+.container .img, .container .img-2, .container .img-3 {
+  position: absolute;
+  width: 110px;
+  height: 86px;
+  top: 111px;
+  background-color: #bdbdbd;
+  background-repeat: no-repeat;
+  background-size: 100px 50px;
+  background-position: center;
+  border-radius: 4px;
+}
+
+.container .img {
+  left: 25px;
+  background-image: url("img/Appistol.png");
+}
+
+.container .img-2 {
+  left: 202px;
+  background-image: url("img/shotgun.png");
+}
+
+.container .img-3 {
+  left: 374px;
+  background-image: url("img/Assault_rifle.png");
+}
+
+.container .text-wrapper {
+  position: absolute;
+  top: 10px;
+  left: 214px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: normal;
+  direction: rtl;
+}
+
+.container .button {
+  position: absolute;
+  width: 137px;
+  height: 33px;
+  top: 235px;
+  left: 188px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #070202;
+  font-size: 24px;
+  background-color: #bdbdbd;
+  border-radius: 7px;
+}
